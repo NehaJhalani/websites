@@ -1,0 +1,466 @@
+body{
+	background: black;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+	text-decoration: none;
+
+}
+a{
+	color: black;
+}
+.clear{
+	clear: both;
+}
+.main{
+	width: 1000px;
+	margin: auto;
+}
+/*header starts*/
+.header{
+	width: 1000px;
+	height: 176px;
+	background: url(images/headerbg.jpg);
+}
+.logo{
+	width: 210px;
+	height: 160px;
+	background: url(images/logo.png);
+	float: left;
+	margin-left: 20px;
+}
+.sitename{
+	width: 341px;
+	height: 41.6px;
+	margin-top: 35px;
+	margin-left: 40px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: large;
+	float: left;
+}
+.headercontact{
+	width: 296px;
+	height: 121.6px;
+	background: url(images/topcontactbg.png);
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.websitename{
+	width: 228px;
+	height: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 22px;
+	font-weight: bolder;
+	padding-top: 5px;
+}
+.email{
+	width: 252.36px;
+	height: 26.4px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 22px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+.phone{
+	width: 276px;
+	height: 27.2px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+	padding-top: 5px;
+}
+.menu{
+	width: 1000px;
+	height: 50px;
+	background: url(images/menubg.jpg);
+
+}
+.menuhome{
+	width: 127px;
+	height: 34px;
+	background: url(images/menubackground.png);
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-left: 70px;
+}
+.menuhome:hover{
+	background: url(images/menuactive.png);
+}
+.menuaboutus{
+	width: 127px;
+	height: 34px;
+	background: url(images/menubackground.png);
+	float: left;
+	margin-right: 15px;
+	margin-top: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+.menuaboutus:hover{
+	background: url(images/menuactive.png);
+}
+.menucourses{
+	width: 127px;
+	height: 34px;
+	background: url(images/menubackground.png);
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.menucourses:hover{
+	background: url(images/menuactive.png);
+}
+.menugallery{
+	width: 127px;
+	height: 34px;
+	background: url(images/menubackground.png);
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.menugallery:hover{
+	background: url(images/menuactive.png);
+}
+.menuenquiry{
+	width: 127px;
+	height: 34px;
+	background: url(images/menubackground.png);
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.menuenquiry:hover{
+	background: url(images/menuactive.png);
+}
+.menucontactus{
+	width: 127px;
+	height: 34px;
+	background: url(images/menubackground.png);
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.menucontactus:hover{
+	background: url(images/menuactive.png);
+}
+/*content1 starts*/
+.content1{
+	width: 1000px;
+}
+/*content1leftstarts*/
+.content1left{
+	width: 213px;
+	height: 240px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.content1lefthome{
+	width: 213px;
+	height: 30px;
+	background: url(images/leftmenubg.png);
+	padding-top: 10px;
+	text-align: center;
+}
+.content1leftaboutus{
+	width: 213px;
+	height: 30px;
+	background: url(images/leftmenubg.png);
+	padding-top: 10px;
+	text-align: center;
+}
+.content1leftcourses{
+	width: 213px;
+	height: 30px;
+	background: url(images/leftmenubg.png);
+	padding-top: 10px;
+	text-align: center;
+}
+.content1leftgallery{
+	width: 213px;
+	height: 30px;
+	padding-top: 10px;
+	background: url(images/leftmenubg.png);
+	text-align: center;
+}
+.content1leftenquiry{
+	width: 213px;
+	height: 30px;
+	padding-top: 10px;
+	background: url(images/leftmenubg.png);
+	text-align: center;
+}
+.content1leftcontactus{
+	width: 213px;
+	height: 30px;
+	padding-top: 10px;
+	text-align: center;
+	background: url(images/leftmenubg.png);
+}
+/*content1right starts*/
+.content1right{
+	width: 743px;
+	height: 240px;
+	background: url(images/banner.gif);
+	float: left;
+	margin-left: 20px;
+
+}
+/*content2 starts*/
+.content2{
+	width: 1000px;
+	margin-top: 10px;
+	
+}
+/*content2-div1 starts*/
+.content2-div1{
+	width: 215px;
+	height: 179px;
+	background: url(images/whybg.jpg);
+	color: white;
+	padding-top: 10px;
+	border: 1px solid white;
+	margin-left: 15px;
+	border-radius: 5px;
+float: left;
+}
+.content2-div1 h4{
+	text-align: center;
+}
+.content2-div1 p{
+	line-height: 1.5;
+}
+/*content2-div2 starts*/
+.content2-div2{
+width: 328px;
+height: 194px;
+background-color: #fdc059;
+border: 1px solid white;
+float: left;
+line-height: 1.5;
+padding-left: 20px;
+font-weight: bold;
+margin-left: 20px;
+
+}
+.content2-div2 u{
+color: white;
+}
+/*content2 div3 starts*/
+.content2-div3{
+	width: 370px;
+	height: 195px;
+	margin-left: 10px;
+	float: left;	
+}
+/*footer starts*/
+.footer{
+	width: 960px;
+	height: 30px;
+	border: 1px solid white;
+	background: url(images/footer_middle.png);
+	margin-top: 5px;
+	margin-left: 20px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 16px;
+	font-weight: bold;
+}
+.about{
+	background-color: white;
+	width: 743px;
+	float: left;
+	margin-left: 20px;
+	padding-bottom: 55px;
+}
+.about p{
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.about h2{
+	margin-left: 20px;
+}
+.courses{
+	background-color: white;
+	width: 745px;
+	height: 240px;
+	float: left;
+	margin-left: 20px;
+
+}
+.courses h1{
+	margin-left: 20px;
+	padding-top: 10px;
+	font-weight: bold;
+
+}
+.courses p{
+	margin-left: 20px;
+	color: gray;	
+}
+.gallery{
+	width: 740px;
+	height: 620px;
+	background-color: white;
+	float: left;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-top: ;
+}
+.gallery h1{
+	padding-left: 10px;
+	padding-top:10px ;
+}
+.imgrow1{
+	width: 720px;
+	height: 170px;
+	margin-top: 10px;
+	
+}
+.imgrow2{
+	width: 720px;
+	height: 170px;
+	margin-top: 10px;
+
+}
+.imgrow3{
+	width: 720px;
+	height: 170px;
+	margin-top: 10px;
+}
+.img1{
+	float: left;
+
+}
+.img2{
+	float: left;
+	margin-left: 60px;
+}
+.img3{
+	float: right;
+}
+.img4{
+	float: left;
+
+}
+.img5{
+	float: left;
+	margin-left: 60px;
+}
+.img6{
+	float: right;
+}
+.img7{
+	float: left;
+
+}
+.img8{
+	float: left;
+	margin-left: 60px;
+}
+.img9{
+	float: right;
+}
+.enquiry{
+	background-color: white;
+	width: 745px;
+	height: 645px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+.gender {
+	width: 745px;
+	height: 30px;
+	padding-top: 10px;
+}
+.name {
+	width: 745px;
+	height: 30px;
+	padding-top: 10px;
+}
+.contact {
+	width: 745px;
+	height: 30px;
+	padding-top: 10px;
+}
+.country {
+	width: 745px;
+	height: 30px;
+	padding-top: 10px;
+}
+.state {
+	width: 745px;
+	height: 30px;
+	padding-top: 10px;
+}
+.city {
+	width: 745px;
+	height: 30px;
+	padding-top: 10px;
+}
+.address{
+	resize: none;	
+	width: 745px;
+	padding-top: 10px;
+}
+.address_text{
+	resize: none;
+}
+.email1{
+	width: 745px;
+	height: 30px;
+	margin-top: 10px;
+}
+.enquiry1{
+	resize: none;	
+	width: 745px;
+	padding-top: 10px;
+}
+.enquiry_text{
+	resize: none;
+}
+.submit input{
+	margin-top: 10px;
+	padding: 10px;
+background: blue;
+}
+.contactus{
+	width: 745px;
+	background-color: white;
+	float: right;
+}
+.contactus h1{
+	margin-left: 40px;
+	padding-top: 20px;
+}
+.contactus p{
+	color: blue;
+	padding-top: 18px;
+}

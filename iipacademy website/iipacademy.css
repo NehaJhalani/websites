@@ -1,0 +1,420 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+	text-decoration: none;
+}
+a{
+	color: black;
+}
+body{
+	background: black;
+}
+.main{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	
+}
+/*header*/
+.header{
+	width: 995px;
+	height: 160px;
+	background: url(images/headerbg.jpg);
+	background-size: cover;
+	}
+.logo{
+	width: 215px;
+	height: 160px;
+	
+	background: url(images/logo.png) no-repeat;
+	margin-left: 25px;
+	float: left;
+}
+.headerheading {
+	width: 350px;
+	font-family: arial;
+	margin: 28px;
+	float: left;
+	font-weight: bolder;
+	font-size: 18px;
+	text-align: center;
+	float: left;
+	}
+.headercontact{
+	width: 230px;
+	height: 80px;
+	margin: 20px;
+	background: url(images/topcontactbg.png) no-repeat;
+	background-size: cover;
+	float: right;
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 20px;
+	padding: 20px;
+ }
+.hc{
+	margin: 10px;
+}
+#hc3{
+	color: white;
+}
+/*header end*/
+/*menu start*/
+.menu{
+	width: 996px;
+	height: 50px;
+	background: url(images/menubg.jpg);
+
+	
+
+}
+.home{
+	width: 127px;
+	height: 34px;
+	background: url(images/menubackground.png);
+	font-weight: bold;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-family: arial;
+	float: left;
+	margin-left: 40px;
+	margin-top: 7px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.home:hover{
+background: url(images/menuactive.png);
+}
+.about{
+	width: 127px;
+	height: 34px;
+	background: url(images/menubackground.png);
+	font-weight: bold;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-family: arial;
+	float: left;
+	margin-top: 7px;
+	margin-right: 30px;
+	text-align: center;
+}
+.about:hover{
+background: url(images/menuactive.png);
+}
+.course{
+	width: 127px;
+	height: 34px;
+	background: url(images/menubackground.png);
+	font-weight: bold;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-family: arial;
+	float: left;
+	margin-top: 7px;
+	margin-right: 30px;
+	text-align: center;
+}
+.course:hover{
+background: url(images/menuactive.png);
+}
+.gallery{
+	width: 127px;
+	height:34px;
+	background: url(images/menubackground.png);
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: arial;
+	float: left;
+	margin-top: 7px;
+	margin-right: 30px;
+}
+.gallery:hover{
+background: url(images/menuactive.png);
+}
+.enquiry{
+	width: 127px;
+	height: 34px;
+	background: url(images/menubackground.png);
+	font-weight: bold;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-family: arial;
+	float: left;
+	margin-top: 7px;
+	margin-right: 30px;
+	text-align: center;
+}
+.enquiry:hover{
+background: url(images/menuactive.png);
+}
+.contact{
+	width: 127px;
+	height: 34px;
+	background: url(images/menubackground.png);
+	font-weight: bold;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-family: arial;
+	float: left;
+	margin-top: 7px;
+	margin-right: 30px;
+	text-align: center;
+}
+.contact:hover{
+background: url(images/menuactive.png);
+}
+/*menu end*/
+/*content1 start*/
+.content1{
+	width: 1000px;
+	height: 250px;
+
+}
+.content1left{
+	width: 230px;
+	height: 260px;
+	float: left;
+
+}
+.content1home{
+	width:213px;
+	height: 30px;
+	background: url(images/leftmenubg.png) no-repeat; 
+	margin-top: 10px;
+	margin-left:8px; 
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	padding-top: 10px;
+
+}
+.content1about{
+	width:213px;
+	height: 30px;
+	background: url(images/leftmenubg.png) no-repeat; 
+	margin-left:8px; 
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+.content1course{
+	width:213px;
+	height: 30px;
+	background: url(images/leftmenubg.png) no-repeat; 
+	margin-left:8px; 
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+.content1gallery{
+	width:213px;
+	height: 30px;
+	background: url(images/leftmenubg.png) no-repeat; 
+	margin-left:8px; 
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+.content1enquiry{
+	width:213px;
+	height: 30px;
+	background: url(images/leftmenubg.png) no-repeat; 
+	margin-left:8px; 
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+.content1contact{
+	width:213px;
+	height: 30px;
+	background: url(images/leftmenubg.png) no-repeat; 
+	margin-left:8px; 
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+.content1right{
+	width: 760px;
+	height: 260px;
+	float: right;
+	margin-left:8px; 
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+/*content1 end*/
+/*content2 starts*/
+.content2{
+	width: 1000px;
+	height: 210px;
+
+}
+.content2left{
+	width: 200px;
+	height: 189px;
+	background: url(images/whybg.jpg) ;
+	color: white;
+	border: 1px solid white;
+	border-radius: 7px;
+	float: left;
+	margin: 0px 13px;
+	line-height: 1.5;
+
+}
+.content2mid{
+	width: 365px;
+	height: 180px;
+	background-color: #fdc059;
+	border: 1px solid white;
+	float: left;
+	margin-top: 0px;
+	line-height: 1.5;
+	font-weight: bolder;
+
+
+}
+.content2midheading{
+	color: white;
+	
+}
+.content2right{
+	width: 365px;
+	height: 180px;
+	background-image: url(images/services.jpg);
+	
+	float: right;
+	margin-right: 13px;
+	
+}
+/*content2 end*/
+/*footer starts*/
+.footer{
+	width: 980px;
+	height: 30px;
+	background: url(images/footer_middle.png) no-repeat;
+	background-size: cover;
+	text-transform: capitalize;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+	margin: 0px 10px;
+
+}
+
+/*about us page start*/
+.aboutcontent1{
+	height: 600px;
+	width: 1000px;
+
+}
+.content1aboutpara{
+	width: 740px;
+	height: 600px;
+	margin-right: 10px;
+	color: black;
+	background-color: white;
+	float: right;
+	padding-left: 10px;
+}
+/*course page starts*/
+.coursecontent1{
+	width: 1000px;
+	height: 260px;
+}
+.content1coursepara{
+	width: 740px;
+	height: 260px;
+	background-color: white;
+	float: right;
+	padding-left: 10px;
+	
+
+}
+.content1coursepara p{
+	color: gray;
+
+
+}
+/*gallery page start*/
+.gallerycontent1{
+	width: 1000px;
+	height: 700px;
+}
+.content1galleryimg h1{
+	padding-top: 5px;
+	padding-left: 15px;
+
+}
+.content1galleryimg{
+	width: 750px;
+	height: 690px;
+	float: left;
+	background: white;
+
+
+}
+.content1galleryimg img{
+
+	float: left;
+	padding-top: 10px;
+	padding-left: 35px;
+}
+.clear{
+	clear: both;
+}
+/*gallery page ends*/
+/*enquiry page starts*/
+.enquirycontent1{
+	width: 1000px;
+	height: 700px;
+}
+.content1enquiryform{
+	width: 750px;
+	height: 690px;
+	float: left;
+	background: white;
+	line-height: 2.7;
+	padding-left: 10px;
+}
+.button input{
+	width: 80px;
+	height: 30px;
+	background: blue;
+}
+/*enquiry page end*/
+
+/*contact page starts*/
+
+.contactcontent1{
+	width: 1000px;
+	height: 260px;
+}
+.content1contactdetails{
+	width: 750px;
+	height: 260px;
+	background-color: white;
+	float: left;
+	padding-left: 10px;
+	
+
+}
+.content1contactdetails h1{
+	padding-top: 10px;
+	padding-left: 25px;
+}
+.content1contactdetails p{
+	line-height: 2;
+	color: blue;
+
+
+}
