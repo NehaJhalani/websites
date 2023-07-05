@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>traffic light</title>
+	<style type="text/css">
+		.main{
+			margin: auto;
+			width: 150px;
+			height: 359px;
+			border: 5px solid yellow;
+
+
+		}
+		.main div{
+			border-radius: 50%;
+			width: 100px;
+			height: 100px;
+			background: black;
+			margin: auto;
+			margin-bottom: 20px;
+
+		}
+		.stand{
+			width: 30px;
+			height: 300px;
+			background: black;
+			margin: auto;
+		}
+	</style>
+	<script type="text/javascript">
+		var i=1
+		function traffic(){
+			if(i==1){
+				document.querySelector(".red").style.background="red";
+				document.querySelector(".orange").style.background="black";
+				document.querySelector(".green").style.background="black";
+				i++;
+			}
+			else if(i==2){
+				document.querySelector(".red").style.background="black";
+				document.querySelector(".orange").style.background="orange";
+				document.querySelector(".green").style.background="black";
+				i++;
+			}
+			else if(i==3){
+				document.querySelector(".red").style.background="black";
+				document.querySelector(".orange").style.background="black";
+				document.querySelector(".green").style.background="green";
+				i=1;
+			}
+		}
+		setInterval(traffic,1500);
+	</script>
+</head>
+<body onload="traffic()">
+ <div class="main">
+ 	<div class="red"></div>
+ 	<div class="orange"></div>
+ 	<div class="green"></div>
+ </div>
+ <div class="stand"></div>
+</body>
+</html>

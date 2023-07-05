@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>claculator</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin: 0px;
+			font-family: arial;
+			padding: 0px;
+		}
+		table{
+			width: 500px;
+			height: 500px;
+			border-radius: 10px;
+			margin: auto; 
+			margin-top: 30px;
+			background: #CCC;
+			text-align: center;
+			border: 3px double black;
+		}
+		table tr td input[type="button"]{
+			width: 70px;
+			height: 70px; 
+			font-size: 30px;
+			font-weight: bold;
+			background: blue;
+			color: white;
+			text-align: center;
+			line-height: 70px;
+			border-radius: 50%;
+			border: 3px double black;
+
+		}
+		table tr td input[type="text"]{
+			width: 80%;
+			text-align: right;
+			font-size: 25px;
+			padding: 0px 10px;
+			height: 40px;
+			border: 4px solid blue;
+			border-radius: 25px;
+
+		}
+	</style>
+	<script type="text/javascript">
+		function getValue(c){
+			var n=c.value;
+			var oldData=document.getElementById('maininput').value;
+			document.getElementById('maininput').value=oldData+n;
+		}
+		function calData(c){
+			 
+			var mainInput=eval(document.getElementById('maininput').value);
+			document.getElementById('maininput').value=mainInput;
+		}
+		function clsData(){
+
+			document.getElementById('maininput').value='';
+		}
+	</script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td> <input type="button" value="c" onclick="clsData()" >
+			</td>
+			<td colspan="3">
+				<input type="text" id="maininput">
+			</td>
+		</tr>
+		<tr>
+			<td> <input type="button" value="+"onclick="getValue(this)"></td>
+		    <td><input type="button" onclick="getValue(this)" value="1"></td>
+			<td><input type="button" onclick="getValue(this)" value="2"> </td>
+			<td><input type="button" onclick="getValue(this)" value="3" ></td>
+		</tr>
+		<tr>
+			<td> <input type="button" onclick="getValue(this)" value="-" ></td>
+			<td><input type="button"onclick="getValue (this)" value="4" ></td>
+			<td><input type="button" onclick="getValue(this)" value="5" ></td>
+			<td><input type="button" onclick="getValue (this)" value="6" ></td>
+		</tr>
+		<tr>
+			<td><input type="button" onclick="getValue (this)" value="*" ></td>
+			<td><input type="button" onclick="getValue (this)" value="7" ></td>
+			<td><input type="button" onclick="getValue (this)" value="8" ></td>
+			<td><input type="button" onclick="getValue (this)" value="9" ></td>
+
+		</tr>
+		<tr>
+			<td> <input type="button" onclick="getValue(this)" value="/" ></td>
+			<td><input type="button" onclick="getValue(this)" value="."></td>
+			<td><input type="button" onclick="getValue(this)" value="0" ></td>
+			<td><input type="button" value="=" onclick="calData()"></td>
+		</tr>
+	</table>
+</body>
+</html>

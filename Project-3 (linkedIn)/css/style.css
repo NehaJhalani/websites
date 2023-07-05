@@ -1,0 +1,359 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+a{
+	text-decoration: none;
+	color: #0047AB;
+}
+.clear{
+	clear: both;
+}
+.section1{
+	width: 100%;
+	border-bottom: 2px solid #0047AB; 
+}
+.section1LogIn{
+	width: 100%;
+}
+.header{
+	width: 1200px;
+}
+.logo{
+	margin-left: 100px;
+	color: #0047AB;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: arial;
+	float: left;
+}
+.marketingSolution{
+	color: black;
+	font-size: 20px;
+	font-weight:normal;
+	float: left;
+	margin-top: 12px;
+	color: gray;
+	margin-left: 10px;
+	font-family: arial;
+}
+.createAdd button {
+background-color: white;
+border :2px solid #0096FF ;
+	/*color: #0096FF;*/
+	color: #0047AB;
+	width: 150px;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: right;
+	margin-top: 10px;
+	transition: 1s;
+}
+.createAdd button:hover{
+	background: #ADD8E6;
+}
+.clear{
+	clear: both;
+}
+/*section 2 css started*/
+.section2{
+	width: 100%;
+	height: 500px;
+	background-color:	#B6D0E2;
+}
+.section2-middle{
+	width: 1200px;
+	margin: auto;
+}
+.left-Of-Section2{
+	margin-top: 40px;
+	float: left;
+	width: 505px;
+	height:438px;
+	background: url(../gif/sponsored-content-hero-anim-v01.gif.original.gif);
+}
+.right-Of-Section2{
+	margin-top: 40px;
+	width: 498px;
+	height: 438px;
+	float: right;
+}
+.right-Of-Section2-Sponsored{
+	font-size: 40px;
+	text-align: center;
+	font-family: arial;
+	margin-top: 10px;
+}
+.right-Of-Section2-p2{
+	text-align: justify;
+	padding: 20px;
+	font-size: 25px;
+	color:gray;
+}
+.createAdd2  button {
+background-color: #0047AB;
+border :none;
+	/*color: #0096FF;*/
+	color: red;
+	width: 120px;
+	font-size: 15px;
+	padding-top: 8px;
+	padding-bottom:8px;
+	float: left;
+	border-radius: 5px;
+	margin-left: 20px;
+	margin-top: 10px;
+	transition: 1s;
+}
+.createAdd2  button a{
+color: white;
+}
+.createAdd2 button:hover {
+	background: #ADD8E6;
+	font-weight: bold;
+}
+.createAdd2 button a:hover  {
+color: black;
+}
+/*section 3 css started*/
+.section3{
+	width: 100%;
+}
+.section3 h1{
+	font-weight: normal;
+	font-family: arial;
+	margin-left: 50px;
+	font-size: 45px;
+	color: gray;
+	padding-top: 40px;
+}
+.section3-middle{
+	width: 1000px;
+	margin: auto;
+	margin-top: 20px;
+}
+.Maximize-Reach{
+	margin-top: 35px;
+	width: 30%;
+	float: left;
+	color: gray;
+}
+.Maximize-Reach:nth-child(4){
+float: right;
+}
+.Maximize-Reach:nth-child(3){
+margin-left: 44px;
+}
+.Maximize-Reach p{
+	margin-top: 10px;
+	line-height: 1.5;
+}
+.section4{
+	width: 100%;
+	background-color: #EADDCA;
+	padding-bottom: 60px;
+
+}
+.section4 h1{
+font-weight: normal;
+font-size: 40px;
+color: gray;
+padding-top: 40px;
+}
+.section4  p{
+padding-top: 40px;
+padding-bottom: 40px;
+font-size: 25px;
+color: gray;
+
+}
+.section4-left{
+	width: 66%;
+	height: 550px;
+	float: left;
+	background: url(../png/body-image-banner.png.original.png)center;
+	background-size: cover;
+}
+.section4-right{
+	width: 34%;
+	height: 550px;
+	float: left;
+	text-align: center;
+}
+.section4-right a:hover {
+	border:0px;
+}
+.section5{
+	margin-top: 0px;
+	width: 100%;
+	background-color: 	#FFF8DC;
+}
+.section5-middle{
+	width: 1000px;
+	margin: auto;
+}
+.section5-left{
+	margin-top: 65px;
+	margin-bottom: 40px;
+	float: left;
+	width: 200px;
+	height: 400px;
+}
+.section5right{
+	margin-top: 65px;
+	margin-bottom: 40px;
+	width: 800px;
+	height: 500px;
+	float: right;
+	background:url(../gif/video-ads.gif.original.gif) ;
+	background-size: cover; 
+}
+.section6{
+	width: 100%;
+	background-color: #FFFFF0;
+	padding-top: 60px;
+}
+.section6-middle{
+	width: 1000px;
+	margin: auto;
+
+}
+.section6-left{
+	width: 500px;
+	height: 500px;
+	float: left;
+	background:url(../gif/carousel-ads.gif.original.gif); 
+	background-size: cover;
+	margin-bottom: 60px;
+}
+.section6-right{
+	float: left;
+	color: gray;
+}
+/*section 7 css started*/
+.section7{
+	background-color: 	#FFF8DC;
+}
+.middle-section7{
+	width: 1200px;
+	margin: auto;
+	border:2px solid red;
+}
+.section7-left{
+	width: 500px;
+float: left;
+}
+.section7-right{
+	width: 700px;
+	height: 450px
+	background: url(png/event-ads-thumbnail.png.original.png);
+	background-size: cover;
+float:right;
+
+}
+form{
+	box-shadow: 10px 10px 8px #888888;
+	padding-left: 30px;
+	width: 500px;
+	margin: auto;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	margin-bottom: 140px;
+}
+form input{
+	padding-left: 10px;
+	border-radius: 10px;
+	margin-top: 20px;r
+	text-align: justify;
+	font-size: 26px;
+	width: 450px;
+	height: 50px;
+}
+p{
+	padding-top: 20px;
+}
+form p:last-child{
+	color: #0047AB;
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+}
+.btn1{
+	width: 450px;
+	color:white;
+	background-color:blue;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 10px; 
+	border-radius: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.btn1 a{
+	color: white;
+	font-size: 22px;
+}
+.btn1:hover a{
+	font-weight: bold;
+}
+.btn2{
+	width: 450px;
+	border:1px solid red;
+
+padding-top: 15px;
+padding-bottom: 10px;
+text-align: center;
+border-radius: 10px;
+border:1px solid gray;
+}
+.btn2:hover{
+	border:1px solid black;
+}
+.btn3{
+	margin-top: 10px;
+		width: 450px;
+	border:1px solid blue;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-radius: 10px;
+	border:1px solid gray;
+}
+.btn3:hover{
+	border:1px solid black;
+}
+/*footer css started*/
+footer{
+width: 99%;
+background: #E5E4E2;
+padding-top: 20px;
+padding-left: 1%;
+padding-bottom:20px;
+
+}
+footer .logo{
+	margin-left: 0px;
+	font-size: 20px;
+	color: black;
+}
+.fa-copyright{
+	padding-top: 3px;
+	padding-left: 10px;
+	color: gray;
+}
+footer span{
+	padding: 3px;
+	color: gray;
+	transition: 1s;
+}
+footer span:hover{
+	border-bottom: 3px solid gray;
+}
+.fa-google{
+	 color: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+footer select hover{
+	border:10px solid gray;
+}

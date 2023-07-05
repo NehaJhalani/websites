@@ -1,0 +1,237 @@
+@media only screen and (min-width:300px) and (max-width:750px){
+    header,.main2 .part1 .para,.main1 p,.main4,.footer .onebox{
+        display: none;
+    }
+    nav{
+        position: relative;
+    }
+    nav .fire{
+        position: absolute;
+        opacity: 1;
+        left: -250px;
+        top: 0;
+        height: 100vh;
+
+        padding: 15px 55px;
+        transition: all 0.5s;
+    }
+    nav .fire ul li{
+        text-align: center;
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        font-weight: normal;
+        letter-spacing: 0.8px;
+        color: black;
+        padding: 10px 10px;
+    }
+   
+    nav .fire2{
+        
+        left: 0px;
+        height: 100vh;
+        background-color: white;
+        opacity: 1;
+    }
+    nav{
+        width: 100%;
+    }
+   
+    nav .logo{
+        padding-left:20px ;
+    }
+    nav .icons {
+        padding-right: 12px;
+    }
+    nav .icons i{
+        padding-left: 20px  ;
+    }
+    .main1{
+        width: 100%;
+        padding-left: 50px;
+        padding-bottom: 270px;
+    }
+    
+.main1 h4{
+    padding-top: 265px;
+    font-size: 13px;
+    letter-spacing: 
+    3px;
+    color: #333333;
+}
+.main1 h2{
+    font-size: 18px;
+    letter-spacing: 2.8px;
+    color: #3cb878;
+}
+.main1 p{
+    width: 300px;
+    font-size: 8px;
+    color: #333333;
+    /* letter-spacing: 1px; */
+    padding-bottom:30px ;
+}
+.main1 .button{
+    background: none;
+   border: 1px solid black;
+   display: table;
+    padding: 0 !important;
+    margin-bottom: 100px !important;
+    margin-top: 10px !important;
+}
+.main1 .button button{
+ 
+    background: inherit;
+    color: #333333;
+    text-align: center;
+    display: table;
+    padding: 3px;
+    width: 75px;
+    font-weight: 800;
+    font-size: 9px;
+    /* line-height: 17px;s */
+    letter-spacing: 1px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    text-align: center;
+
+}
+.main2 .part1{
+    margin: auto;
+    order: 0;
+   padding: 50px 0px;
+}
+.main2 .part1 h3{
+    font-size: 35px;
+    width: 100%;
+    margin: auto;
+}
+.main2 .part2{
+    flex-direction: column;
+    padding: 0px;
+}
+.main2 .part2 .item1{
+    margin: auto;
+}
+.main2 .part2 .item1 .img{
+    margin: 45px;
+    border: 1ps solid black;
+}
+.main2 .part2 .item1 .pdtname{
+    height: 100px;
+}
+.main3{
+    margin-top: 15px;
+    flex-wrap: wrap;
+    
+}
+.main3 .s1{
+        width: 100%;
+    border-bottom: 2px solid #ffffff;
+        
+}
+.main5 h3{
+    padding-top: 55px;
+    font-size: 25px;
+}
+.main5 .grid {
+    flex-direction: row !important;
+}
+.main5 .grid .item1{
+    text-align: center;
+    padding-bottom: 15px;
+    margin: auto;
+}
+.main5 .grid .item1:nth-child(odd){
+    display: none;
+}
+.main6{
+flex-wrap: wrap;
+}
+.main6 .side1{
+    width: 100%;
+
+    padding: 21px 0px;
+    text-align: center;
+}
+.main6 .side2{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding: 21px 0px;
+ }
+
+
+.main6 .side2 img{
+    width: 70px;
+    height: 56px;
+    padding: 13px;
+}
+.main6 .side1 h3{
+    font-size: 20px;
+}
+.main6 .side1 p{
+    font-size: 10px;
+    width: 347px;
+    line-height: 18px;
+}
+.main6 .side1 form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.main6 .side1 form input{
+    width: 300px;
+ 
+
+    height: 31px;
+}
+.main6 .side1 form button{
+    width: auto;
+    padding: 10.5px 8px;
+
+    font-size: 7px;
+}
+.footer .allabout{
+    width: 100%;
+    justify-content: center;
+    padding: 50px 0;
+}
+.footer .allabout .info2,.info3{
+    padding-right: 20px;
+}
+.footer .allabout .info{
+    padding-left: 10px;
+    padding-right: 14px;
+}
+.footer .allabout .info h3,.info2 h3,.info3 h3,.info4 h3{
+    font-size: 10px;
+}
+.footer .allabout .info ul li,.info2 ul li,.info3 ul li,.info4 ul li{
+    font-size: 7px;
+}
+.footer .twobox {
+    padding: 10px 25px;
+
+}.footer .twobox .lastpart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer .twobox .lastpart .content h3{
+    font-size: 9px;
+    padding: 5px 0px;
+    text-align: center;
+}
+.footer .twobox .lastpart .payment {
+    float: left;
+    /* margin: auto; */
+    padding: 10px 26px;
+}
+.footer .twobox .lastpart .payment img{
+    width: 37px;
+}
+}
